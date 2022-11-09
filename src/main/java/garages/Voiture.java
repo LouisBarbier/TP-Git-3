@@ -21,7 +21,6 @@ public class Voiture {
 	}
 
 	public void entreAuGarage(Garage g) throws Exception {
-		// Et si la voiture est déjà dans un garage ?
 		if (estDansUnGarage()) throw new Exception("Une voiture ne peut pas être dans 2 garages à la fois");
 		if (g==null) throw new IllegalArgumentException("Le garage ne doit pas être null");
 		Stationnement s = new Stationnement(this, g);
