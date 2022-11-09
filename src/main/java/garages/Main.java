@@ -14,4 +14,5 @@ public class Main {
 		v1.imprimeStationnements(System.out);
 	}
 
+
 }
